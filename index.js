@@ -9,7 +9,7 @@ function findDistinctSum(set1, set2) {
         sum += element;
       }
     }
-   
+   //
     // Compare each element of set2 with set1 and add distinct elements to sum
     for (const element of set2) {
       if (!set1.includes(element)) {
